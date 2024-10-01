@@ -1,0 +1,25 @@
+body{
+color: black;
+background: rgb(255, 163, 220);
+font-family: "Libre Baskerville", serif;
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 250px;
+}
+
+button {
+color:black;
+background:rgb(189, 10, 120);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 15px;
+}
+
+.passo {
+ display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
